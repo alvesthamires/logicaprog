@@ -14,3 +14,6 @@ if(num > 20){
 }else{
     console.log("O número inserido é: ", num);
 }
+
+
+// Comentário realizado em 17/06/2026
