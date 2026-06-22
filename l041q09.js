@@ -11,5 +11,5 @@ let num;
  } else if (num < 0){
     console.log(`${num} é negativo.`);
  } else{
-    console.log(`${num} é mulo`);
+    console.log(`${num} é nulo`);
  }
