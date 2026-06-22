@@ -1,21 +1,7 @@
 let mes;
 
-
-console.log(" 1 - Janeiro");
-console.log(" 2 - Fevereiro");
-console.log(" 3 - Março");
-console.log(" 4 - Abril");
-console.log(" 5 - Maio");
-console.log(" 6 - Junho");
-console.log(" 7 - Julho" );
-console.log(" 8 - Agosto");
-console.log(" 9 - Setembro");
-console.log(" 10 - Outubro");
-console.log(" 11 - Novembro");
-console.log(" 12 - Dezembro\n");
-
 console.log(" Digite um número (correspondente a um mês): ");
-mes = 10;
+mes = 7;
 console.log(`O número digitado foi ${mes}\n`);
 
 
