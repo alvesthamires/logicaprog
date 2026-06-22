@@ -8,4 +8,4 @@ salario = 100;
 acrescimo = salario * (15 / 100)
 salFinal = salario + acrescimo
 
-console.log("O seu novo salário (com acréscimo de 15%) é:   ", salFinal);
+console.log("O seu novo salário (com acréscimo de 15%) é:   ", salFinal.toFixed(2));
