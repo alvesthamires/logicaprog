@@ -7,6 +7,9 @@ let alunos = [ "Ana", "Bruno", "Carlos", "Diana"];
 //ver com notas de alunos
 let notas = [8.5, 3, 8, 10];
 
+//vetor de números
+let numeros = [6, 23, -7, 18, 4, 92, 15, 33, 0, 50];
+
 console.log(alunos); //exibe os dados do vetor todo
 console.log(alunos[0]);
 console.log(alunos[1]);
@@ -101,3 +104,20 @@ console.log("\n");
 // shift - remove DO INÍCIO do vetor
 alunos.shift();
 console.log(alunos);
+
+console.log("\n");
+
+
+console.log(numeros);
+console.log("\n");
+
+//ordem crescente
+numeros.sort( (a, b) => a - b);
+console.log(numeros);
+
+
+console.log("\n");
+
+//ordem decrescente
+numeros.sort( (a, b) => b - a ); //do "último para o primeiro"
+console.log(numeros);
